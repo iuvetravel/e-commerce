@@ -245,8 +245,9 @@ select {
   margin-left: 1500px;
   margin-bottom: 50px;
   font-size: 2.5em;
-  color: #cd2a09;
-  border-color: #cd2a09;
+  color: #fdca0d;
+  background-color: #0a8084;
+  border: 0.1px solid #0a8084;
 }
 
 .col-3 {
@@ -781,6 +782,9 @@ h4 {
   select {
     margin-left: 280px;
     font-size: 1.5em;
+    color: #fdca0d;
+    background-color: #0a8084;
+    border: 0.1px solid #0a8084;
   }
 }
 /* --------------------Media Qwery for Mobile Phone ---------------------- */
@@ -927,6 +931,6 @@ h4 {
     margin-left: 90px;
     background-color: #0a8084;
     color: #fdca0d;
-    border: 0.1px solid #fdca0d;
+    border: 0.1px solid #0a8084;
   }
 }
