@@ -927,5 +927,6 @@ h4 {
     margin-left: 90px;
     background-color: #0a8084;
     color: #fdca0d;
+    border: 0.1px solid #fdca0d;
   }
 }
