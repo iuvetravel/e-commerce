@@ -235,6 +235,14 @@ p {
   margin: 70px 0;
 }
 
+select {
+  margin-left: 1640px;
+  margin-bottom: 50px;
+  font-size: 2.5em;
+  color: #cd2a09;
+  border-color: #cd2a09;
+}
+
 .col-3 {
   flex-basis: 30%;
   min-width: 200px;
@@ -314,6 +322,10 @@ p {
 .categories {
   margin: 0;
   margin-top: 50px;
+}
+
+.small-container {
+  flex-basis: 25%;
 }
 
 h4 {
@@ -896,5 +908,9 @@ h4 {
   }
   .navbar .fas {
     color: #0a8084;
+  }
+  select {
+    margin-left: 140px;
+    font-size: 1.5em;
   }
 }
