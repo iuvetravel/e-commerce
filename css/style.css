@@ -336,9 +336,9 @@ select {
 }
 
 h4 {
-  font-size: 1.5em;
-  color: #054749;
-  font-weight: 300;
+  font-size: 3em;
+  color: #0a8084;
+  font-weight: bold;
   text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
     rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
@@ -471,6 +471,7 @@ h4 {
   );
   font-size: 1em;
   color: #fffdfe;
+  padding-top: 20px;
 }
 
 .footer p {
@@ -947,6 +948,7 @@ h4 {
   #menuItems .fa-phone {
     color: #fdca0d;
   }
+
   .col-4 h4 {
     color: #0a8084;
     text-align: center;
