@@ -197,6 +197,7 @@ p {
   display: inline-block;
   background: #fdca0d;
   color: #cd2a09;
+  outline: none;
   padding: 8px 30px;
   margin: 30px 100px;
   border-radius: 30px;
