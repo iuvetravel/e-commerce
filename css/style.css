@@ -880,4 +880,7 @@ h4 {
   .offers .great {
     margin: 5px 50px;
   }
+  .navbar .fas {
+    color: #0a8084;
+  }
 }
