@@ -825,8 +825,8 @@ h4 {
 
   .testimonials .col-3 p {
     color: #0a8084;
-    text-align: left;
-    padding: 0 5px;
+    text-align: center;
+    padding: 0;
   }
 
   .footer-col-3,
