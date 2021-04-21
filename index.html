@@ -251,7 +251,7 @@
             <p class="discount">Great discounts at bulk buying!</p>
             <h1 class="great">Great Price Product</h1>
             <small
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
               id alias maiores perspiciatis tempora ab deleniti ipsa sunt minus
               fugit animi delectus nobis pariatur? Non, ipsum ad? Impedit natus
               laboriosam dolores nam. Unde in expedita repellat cumque dolore
@@ -260,7 +260,7 @@
               nesciunt, eius fugiat numquam! Libero, harum ducimus facere rerum
               perspiciatis voluptates illo. Harum, voluptate quod? Nobis placeat
               unde id inventore. Similique nobis fugit culpa.</small
-            >
+            ><br>
             <a href="" class="btn-down">Buy Now!</a>
           </div>
         </div>
@@ -437,5 +437,27 @@
     };
     
 </script>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
   </body>
 </html>
