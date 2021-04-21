@@ -235,8 +235,14 @@ p {
   margin: 70px 0;
 }
 
+.subtitle {
+  text-align: right;
+  margin-bottom: 150px;
+  position: relative;
+}
+
 select {
-  margin-left: 1640px;
+  margin-left: 1500px;
   margin-bottom: 50px;
   font-size: 2.5em;
   color: #cd2a09;
@@ -772,6 +778,10 @@ h4 {
   .footer-col-1 {
     display: none;
   }
+  select {
+    margin-left: 280px;
+    font-size: 1.5em;
+  }
 }
 /* --------------------Media Qwery for Mobile Phone ---------------------- */
 /* --------------------Media Qwery for Mobile Phone ---------------------- */
@@ -912,5 +922,8 @@ h4 {
   select {
     margin-left: 140px;
     font-size: 1.5em;
+  }
+  .women {
+    margin-left: 80px;
   }
 }
