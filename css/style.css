@@ -295,7 +295,7 @@ select {
 }
 
 .col-4 img {
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
   transition: 1s;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -309,7 +309,7 @@ select {
 .title {
   color: #fdca0d;
   text-align: center;
-  margin: 0 auto 80px;
+  margin: 50px auto 80px;
   position: relative;
   font-size: 3em;
 }
@@ -581,6 +581,13 @@ h4 {
   margin: 30px 20px;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.small-container h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 5em;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* ---------------------- Media Query for Menu ----------------- */
@@ -968,6 +975,12 @@ h4 {
     text-align: center;
     font-size: 3em;
     font-weight: bold;
+  }
+  .small-container h1 {
+    text-align: center;
+    padding-bottom: 45px;
+    font-size: 3em;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 }
 
