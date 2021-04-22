@@ -942,6 +942,9 @@ h4 {
     padding-left: 25px;
     margin-right: 25px;
   }
+  nav ul {
+    height: 80vh;
+  }
 }
 
 /* Back Up Button */
