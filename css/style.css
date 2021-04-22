@@ -926,6 +926,14 @@ h4 {
     font-size: 3em;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
+  .menu-icon {
+    font-size: 2em;
+  }
+
+  .navbar .fa-shopping-cart,
+  .fa-caret-square-down {
+    font-size: 1.5em;
+  }
 }
 
 /* Back Up Button */
