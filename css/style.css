@@ -295,7 +295,7 @@ select {
 }
 
 .col-4 img {
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
   transition: 1s;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -585,8 +585,9 @@ h4 {
 
 .small-container h1 {
   text-align: center;
-  padding-top: 20px;
-  font-size: 5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 4em;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -975,12 +976,6 @@ h4 {
     text-align: center;
     font-size: 3em;
     font-weight: bold;
-  }
-  .small-container h1 {
-    text-align: center;
-    padding-bottom: 45px;
-    font-size: 3em;
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 }
 
