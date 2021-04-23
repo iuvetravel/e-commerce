@@ -691,7 +691,8 @@ td input {
 }
 td a {
   color: #cd2a09;
-  font-size: 0.6em;
+  font-size: 1em;
+  font-weight: 700;
 }
 
 td img {
@@ -708,6 +709,7 @@ td img {
   border-top: 1px solid #cd2a09;
   width: 100%;
   max-width: 835px;
+  font-weight: 900;
   border-bottom: 1px solid #cd2a09;
 }
 
