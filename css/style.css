@@ -654,6 +654,73 @@ input:focus {
 
 /* --------------------End Product Details Page Max Pixels ------------------ */
 
+/* <!-- Cart Items Details --> */
+
+.cart-page {
+  margin: 0 auto;
+}
+
+table {
+  font-size: 1.2em;
+  color: #cd2a09;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fdca0d;
+  background: #cd2a09;
+  font-weight: 300;
+}
+
+td {
+  padding: 10px 5px;
+}
+
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a {
+  color: #cd2a09;
+  font-size: 0.6em;
+}
+
+td img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table {
+  border-top: 1px solid #cd2a09;
+  width: 100%;
+  max-width: 835px;
+  border-bottom: 1px solid #cd2a09;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+th:last-child {
+  text-align: right;
+}
+
+/* <!-- End Cart Items Details --> */
+
 /* ---------------------- Media Query for Menu ----------------- */
 /* ---------------- Media Query for Menu ------------------------ */
 /* ---------------------- Media Query for Menu ------------------ */
@@ -670,6 +737,7 @@ input:focus {
     height: 100vh;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 
     transition: max-height 0.5s;
     z-index: 2;
@@ -693,6 +761,11 @@ input:focus {
   .menu-icon {
     display: block;
     cursor: pointer;
+  }
+
+  .fa-caret-square-down,
+  .fa-shopping-cart {
+    font-size: 48px;
   }
 
   .btn {
@@ -1055,7 +1128,7 @@ input:focus {
 
   .navbar .fa-shopping-cart,
   .fa-caret-square-down {
-    font-size: 2em;
+    font-size: 48px;
   }
 
   .container {
@@ -1152,6 +1225,9 @@ input:focus {
   }
   .col-2 p {
     margin: 0;
+  }
+  .cart-info p {
+    font-size: 0.8em;
   }
 }
 
