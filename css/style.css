@@ -882,6 +882,9 @@ input:focus {
 /* --------------------Media Qwery for Mobile Phone ---------------------- */
 /* --------------------Media Qwery for Mobile Phone ---------------------- */
 @media screen and (max-width: 600px) {
+  .header {
+    height: 100vh;
+  }
   .row {
     text-align: center;
   }
