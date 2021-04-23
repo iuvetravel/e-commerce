@@ -195,6 +195,7 @@ p {
     rgba(10, 128, 132, 1) 0%,
     rgba(253, 202, 13, 1) 90%
   );
+  padding-bottom: 10px;
 }
 
 .header .row {
@@ -212,12 +213,15 @@ p {
 }
 
 select {
-  margin-left: 1500px;
   margin-bottom: 50px;
   font-size: 2.5em;
   color: #fdca0d;
   background-color: #0a8084;
   border: 0.1px solid #0a8084;
+}
+
+select:focus {
+  outline: none;
 }
 
 .col-3 {
@@ -253,8 +257,6 @@ select {
 .small-container {
   max-width: 100%;
   margin: auto;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .col-4 {
@@ -554,6 +556,90 @@ h4 {
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+/* --------------------Product Details Page Max Pixels ------------------ */
+
+.single-product {
+  margin-top: 80px;
+}
+
+.single-product .col-2 img {
+  padding: 0;
+}
+.single-product {
+  margin: 20px 20px;
+  border: 1px solid #054749;
+  border-radius: 10px;
+}
+
+.single-product .col-2 {
+  padding: 20px;
+}
+
+.single-product .col-2 h4 {
+  margin: 20px 0;
+  font-size: 4em;
+  font-weight: 700;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.col-2 h1 {
+  text-align: left;
+}
+
+.single-product h3 {
+  font-size: 2em;
+  font-weight: 100;
+  color: #cd2a09;
+}
+.single-product select {
+  /* display: block; */
+  font-size: 2.5em;
+  color: #555;
+  background-color: #fff;
+  border: 0.1px solid #0a8084;
+}
+
+.single-product .btn-home {
+  margin: 25px 10px;
+}
+
+.col-2 p {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+.yellow {
+  background-color: #fdca0d;
+}
+
+.single-product input {
+  width: 60px;
+  height: 40px;
+  font-size: 1em;
+  border: 1px solid #cd2a09;
+  text-align: center;
+  padding-left: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.small-img-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+/* --------------------End Product Details Page Max Pixels ------------------ */
+
 /* ---------------------- Media Query for Menu ----------------- */
 /* ---------------- Media Query for Menu ------------------------ */
 /* ---------------------- Media Query for Menu ------------------ */
@@ -681,8 +767,9 @@ h4 {
   }
   .col-2 p {
     margin-left: 20px;
-    color: #fffdfe;
+    color: #054749;
   }
+
   .btn-home {
     font-weight: 500;
     display: inline-block;
@@ -952,6 +1039,101 @@ h4 {
   }
   nav ul {
     height: 90vh;
+  }
+  .single-product .row {
+    text-align: left;
+  }
+  .single-product .col-2 {
+    padding: 5px 0;
+  }
+  .single-product {
+    margin-top: 5px;
+  }
+
+  .single-product .col-2 img {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .single-product {
+    border: none;
+  }
+
+  .single-product h1 {
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .single-product .col-2 {
+    padding: 0 10px;
+  }
+
+  .single-product .col-2 h4 {
+    /* margin: 20px 0; */
+    font-size: 1em;
+    font-weight: 700;
+    text-align: left;
+    /* text-decoration: underline; */
+  }
+
+  .col-2 h1 {
+    text-align: left;
+  }
+
+  .single-product h3 {
+    font-size: 1em;
+    font-weight: 300;
+    color: #cd2a09;
+  }
+  .single-product select {
+    display: block;
+    font-size: 1.5em;
+    color: #555;
+    background-color: #fff;
+    border: 0.1px solid #0a8084;
+  }
+
+  .single-product .btn-home {
+    margin: 5px 10px;
+  }
+
+  .col-2 p {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #054749;
+  }
+
+  .single-product input {
+    width: 60px;
+    height: 40px;
+    font-size: 1em;
+    border: 1px solid #cd2a09;
+    text-align: center;
+    padding-left: 10px;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .small-img-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .small-img-col {
+    flex-basis: 25%;
+
+    cursor: pointer;
+  }
+  .small-img-col img {
+    padding: 0;
+    margin: 0;
+  }
+  .col-2 p {
+    margin: 0;
   }
 }
 
