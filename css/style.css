@@ -709,12 +709,16 @@ td img {
   border-top: 1px solid #cd2a09;
   width: 100%;
   max-width: 835px;
-  font-weight: 900;
+  font-size: 2em;
+  color: #fdca0d;
+  font-weight: 100;
+  background: #cd2a09;
   border-bottom: 1px solid #cd2a09;
 }
 
 td:last-child {
   text-align: right;
+  font-weight: 700;
 }
 
 th:last-child {
