@@ -637,6 +637,19 @@ input:focus {
   flex-basis: 24%;
   cursor: pointer;
 }
+.fa-shopping-cart {
+  font-size: 48px;
+}
+
+.fa-home strong {
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #fdca0d;
+}
+
+.fa-heart,
+.fa-eye {
+  font-size: 2em;
+}
 
 /* --------------------End Product Details Page Max Pixels ------------------ */
 
@@ -1033,6 +1046,7 @@ input:focus {
   .fa-caret-square-down {
     font-size: 2em;
   }
+
   .container {
     margin: auto;
     padding-bottom: 10px;
