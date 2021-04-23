@@ -889,6 +889,7 @@ input:focus {
     color: #fffdfe;
     padding: 0 40px;
     text-align: center;
+    font-size: 1em;
   }
   .navbar {
     padding: 5px;
