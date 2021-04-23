@@ -106,8 +106,8 @@ p {
 }
 
 .col-2 p {
-  color: #cd2a09;
-  padding: 0 50px;
+  color: #802412;
+  padding: 0 10px;
   text-align: right;
   font-size: 1em;
 }
@@ -582,7 +582,6 @@ h4 {
   font-size: 4em;
   font-weight: 700;
   text-align: right;
-  text-decoration: underline;
 }
 
 .col-2 h1 {
@@ -595,7 +594,7 @@ h4 {
   color: #cd2a09;
 }
 .single-product select {
-  /* display: block; */
+  display: block;
   font-size: 2.5em;
   color: #555;
   background-color: #fff;
@@ -810,6 +809,7 @@ input:focus {
     width: 100%;
   }
   .col-2 h1 {
+    text-align: center;
     font-size: 3em;
     column-span: 2;
     color: #fdca0d;
@@ -926,8 +926,12 @@ input:focus {
     margin: 0 40px;
   }
   .col-2 h1 {
-    color: #cd2a09;
+    color: #fdca0d;
   }
+  .col-2 p {
+    color: #802412;
+  }
+
   .small-container {
     margin-top: 50px;
   }
@@ -1093,14 +1097,13 @@ input:focus {
 
   .single-product .col-2 h4 {
     /* margin: 20px 0; */
-    font-size: 1em;
+    font-size: 3em;
     font-weight: 700;
     text-align: left;
-    /* text-decoration: underline; */
   }
 
   .col-2 h1 {
-    text-align: left;
+    text-align: center;
   }
 
   .single-product h3 {
