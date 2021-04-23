@@ -197,7 +197,7 @@ p {
     rgba(10, 128, 132, 1) 0%,
     rgba(253, 202, 13, 1) 90%
   );
-  padding-bottom: 14px;
+  padding-bottom: 34px;
 }
 
 .header .row {
@@ -882,9 +882,6 @@ input:focus {
 /* --------------------Media Qwery for Mobile Phone ---------------------- */
 /* --------------------Media Qwery for Mobile Phone ---------------------- */
 @media screen and (max-width: 600px) {
-  .header {
-    height: 100vh;
-  }
   .row {
     text-align: center;
   }
