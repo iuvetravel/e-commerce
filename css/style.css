@@ -658,6 +658,7 @@ input:focus {
 
 .cart-page {
   margin: 0 auto;
+  background-color: #fffdfe;
 }
 
 table {
@@ -712,7 +713,6 @@ td img {
   font-size: 2em;
   color: #fdca0d;
   font-weight: 100;
-  background: #cd2a09;
   border-bottom: 1px solid #cd2a09;
 }
 
@@ -725,7 +725,104 @@ th:last-child {
   text-align: right;
 }
 
+.btn-cart {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fffdfe;
+  padding: 0;
+  margin: 0;
+}
+
 /* <!-- End Cart Items Details --> */
+
+/* ------------ Account Page --------------- */
+.account-page {
+  padding: 50px 0;
+}
+
+.form-container {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+  z-index: 3;
+}
+
+.form-container span {
+  font-weight: 700;
+  padding: 0 10px;
+  color: #054749;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+}
+
+.form-btn {
+  display: inline-block;
+  margin: 0;
+  padding: 20px 0;
+  font-size: 1em;
+}
+
+.form-container form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  transition: 1s;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #054749;
+}
+
+form .btn2 {
+  width: 100%;
+  font-size: 1.5em;
+  color: #fdca0d;
+  background-color: #cd2a09;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-radius: 80px;
+}
+
+form .btn:focus {
+  outline: none;
+}
+
+#LoginForm {
+  left: -300px;
+}
+
+#RegForm {
+  left: 0;
+}
+
+form a {
+  font-size: 0.8em;
+}
+
+#indicator {
+  width: 100px;
+  border: none;
+  background-color: #cd2a09;
+  height: 5px;
+  margin-top: 7px;
+  transform: translateX(100px);
+  transition: 1s;
+}
+
+/* ------------ End Account Page --------------- */
 
 /* ---------------------- Media Query for Menu ----------------- */
 /* ---------------- Media Query for Menu ------------------------ */
@@ -1235,6 +1332,31 @@ th:last-child {
   .cart-info p {
     font-size: 0.8em;
   }
+  .total-price table {
+    border-top: 1px solid #cd2a09;
+    width: 100%;
+    max-width: 835px;
+    font-size: 2em;
+    color: #fdca0d;
+    font-weight: 100;
+    background: #cd2a09;
+    border-bottom: 1px solid #cd2a09;
+  }
+
+  td:last-child {
+    text-align: right;
+    font-weight: 700;
+  }
+
+  th:last-child {
+    text-align: right;
+  }
+  .form-container {
+    padding: 0 35px;
+  }
+  #menuItems {
+    z-index: 999;
+  }
 }
 
 /* Back Up Button */
@@ -1259,5 +1381,6 @@ th:last-child {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #fdca0d;
+  color: #cd2a09;
 }
