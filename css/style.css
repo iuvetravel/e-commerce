@@ -97,6 +97,10 @@ p {
   padding: 0;
 }
 
+.down {
+  display: none;
+}
+
 .col-2 h1 {
   font-size: 5em;
   line-height: 1em;
@@ -140,7 +144,7 @@ p {
 
 .btn-cart {
   font-weight: 300;
-  display: inline-block;
+  display: block;
   float: right;
   background: #fdca0d;
   color: #cd2a09;
@@ -755,8 +759,8 @@ th:last-child {
 /* ------------ Account Page --------------- */
 .account-page {
   padding: 50px 0;
-  background: url(../img/down1.webp) center;
-
+  background: url(../img/down1.webp) left;
+  padding: 80px 0;
   background-repeat: no-repeat;
 }
 
@@ -840,6 +844,16 @@ form a {
   margin-top: 7px;
   transform: translateX(100px);
   transition: 1s;
+}
+
+.text {
+  display: flex;
+  flex: 50%;
+  padding: 10px 20px;
+}
+
+.text img {
+  padding: 0 20px;
 }
 
 /* ------------ End Account Page --------------- */
@@ -1389,6 +1403,11 @@ form a {
   .btn-cart {
     margin: 0 90px;
     font-size: 1.4em;
+  }
+  .account-page {
+    background: url(../img/down.webp) top;
+    padding: 280px 0 0 0;
+    background-repeat: no-repeat;
   }
 }
 
