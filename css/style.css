@@ -685,8 +685,8 @@ input:focus {
 
 /* <!-- Cart Items Details --> */
 
-.cart-page {
-  margin: 0 auto;
+.cart-info {
+  margin-top: 0px;
   background-color: #fffdfe;
 }
 
@@ -1397,9 +1397,7 @@ form a {
   #menuItems {
     z-index: 999;
   }
-  .account-page {
-    background: transparent;
-  }
+
   .btn-cart {
     margin: 0 90px;
     font-size: 1.4em;
@@ -1408,6 +1406,7 @@ form a {
     background: url(../img/down2.webp) top;
     padding: 220px 0 0 0;
     background-repeat: no-repeat;
+    border-radius: 10px;
   }
 }
 
