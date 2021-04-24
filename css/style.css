@@ -1417,11 +1417,6 @@ form a {
   .row-2 h2 {
     font-size: 1em;
   }
-  .row-2,
-  .col-4 p {
-    margin: 0;
-    font-size: 1em;
-  }
 }
 
 /* Back Up Button */
