@@ -1408,8 +1408,19 @@ form a {
     background-repeat: no-repeat;
     border-radius: 10px;
   }
+
+  .row-2 {
+    margin: 0;
+    padding: 0;
+  }
+
   .row-2 h2 {
-    font-size: 1.2em;
+    font-size: 1em;
+  }
+  .row-2,
+  .col-4 p {
+    margin: 0;
+    font-size: 1em;
   }
 }
 
