@@ -55,9 +55,7 @@
                 ></a>
               </li>
               <li>
-                <a href="account.html"
-                  ><i class="fas fa-id-card" title="Account"></i
-                ></a>
+                <strong><i class="fas fa-id-card" title="Account"></i></strong>
               </li>
               <li>
                 <a href="#"
@@ -66,94 +64,55 @@
               </li>
             </ul>
           </nav>
-          <strong
+          <a href="cart.html"
             ><i
               class="fas fa-shopping-cart"
               alt="Your Cart"
               title="Your Cart"
             ></i
-          ></strong>
+          ></a>
           <a href="#" class="menu-icon" onclick="menutoggle()"
             ><i class="fas fa-caret-square-down"></i
           ></a>
         </div>
       </div>
     </div>
-    <!-- Cart Items Details -->
+    <!-- Account Page Details -->
 
-    <div class="small-container cart-page">
-      <table>
-        <tr>
-          <th>Product</th>
-          <th>Quantity</th>
-          <th>Subtotal</th>
-        </tr>
-        <tr>
-          <td>
-            <div class="cart-info">
-              <img src="img/garden-light.jpg" />
-              <div>
-                <p>Product Title</p>
-                <small>Price: $545.99</small>
-                <br />
-                <a href="">Remove</a>
+    <div class="account-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <img src="img/download.webp" width="100%" />
+          </div>
+          <div class="col-2">
+            <div class="form-container">
+              <div class="form-btn">
+                <span onclick="login()">Login</span>
+                <span onclick="register()">Register</span>
+                <hr id="indicator" />
               </div>
-            </div>
-          </td>
-          <td><input type="number" value="1" /></td>
-          <td>$545.99</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="cart-info">
-              <img src="img/house-kitchen.jpg" />
-              <div>
-                <p>Product Title</p>
-                <small>Price: $245.99</small>
-                <br />
-                <a href="">Remove</a>
-              </div>
-            </div>
-          </td>
-          <td><input type="number" value="1" /></td>
-          <td>$545.99</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="cart-info">
-              <img src="img/house-dining.jpg" />
-              <div>
-                <p>Product Title</p>
-                <small>Price: $45.99</small>
-                <br />
-                <a href="">Remove</a>
-              </div>
-            </div>
-          </td>
-          <td><input type="number" value="1" /></td>
-          <td>$545.99</td>
-        </tr>
-      </table>
-      <div class="total-price">
-        <table>
-          <tr>
-            <td>Subtotal</td>
-            <td>$867.35</td>
-          </tr>
-          <tr>
-            <td>Tax</td>
-            <td>$67.35</td>
-          </tr>
-          <tr>
-            <td>Total</td>
+              <form id="LoginForm">
+                <input type="text" placeholder="Username" />
+                <input type="password" placeholder="password" />
+                <button type="submit" class="btn2">Login</button>
+                <a href="">Forgot password...</a>
+              </form>
 
-            <td>$899.35</td>
-          </tr>
-        </table>
+              <form id="RegForm">
+                <input type="text" placeholder="Username" />
+                <input type="email" placeholder="Email" />
+                <input type="text" placeholder="Phone number" />
+                <input type="password" placeholder="password" />
+                <button type="submit" class="btn2">Register</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- End Cart Items Details -->
+    <!-- ------Footer -------- -->
     <br />
     <div class="footer">
       <div class="container">
@@ -239,6 +198,21 @@
       function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <script>
+      const LoginForm = document.getElementById("LoginForm");
+      const RegForm = document.getElementById("RegForm");
+      const Indicator = document.getElementById("Indicator");
+      function register() {
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(0px)";
+      }
+      function login() {
+        RegForm.style.transform = "translateX(300px)";
+        LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(100px)";
       }
     </script>
   </body>
