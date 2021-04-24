@@ -1300,7 +1300,9 @@ form a {
   }
 
   .single-product .btn-home {
-    width: 150px;
+    width: 200px;
+    text-align: center;
+    font-weight: 500;
     font-size: 1.5em;
     margin: 10px 40px;
     padding: 10px 10px;
